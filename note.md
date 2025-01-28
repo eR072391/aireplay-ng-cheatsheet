@@ -1,6 +1,9 @@
 基本的なコマンド構文:  
 `aireplay-ng [オプション] <インターフェイス>`  
 
+※使用例は、[wifite2](https://github.com/derv82/wifite2)で使用されているオプションとする。  
+
+
 主なオプション:  
 
 **-0, --deauth**  
