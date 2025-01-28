@@ -45,7 +45,8 @@ ARPリクエストパケットを再送信し、アクセスポイントが応�
 -xには1秒あたりのパケット数を指定する。  
 使用例:  
 `aireplay-ng -3 -b [ターゲットBSSID] -x 600 <インターフェイス>`
-
+or  
+`aireplay-ng -3 -b [ターゲットBSSID] -h [クライアントMAC] -r [replay_file] -F -x 600 <インターフェイス>`   
 
 **-4, --chopchop**  
 説明:  
